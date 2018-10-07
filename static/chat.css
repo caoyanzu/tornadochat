@@ -1,0 +1,16 @@
+#users {
+	position:absolute;   /*使用left,bottom等属性定义位置*/
+	color:red;
+	width:150px;
+	left:0px;            /*显示在左侧*/
+	bottom:0;            /*显示在底部*/
+	border-right:1px solid #000;   /*显示两个div之间的分割条*/
+}
+
+#right {
+	position:absolute;
+	color:green;
+	left:160px;         /*距离左边框160px处，也就是和左边相隔10px*/
+	bottom:0;
+	width:500px;
+}
